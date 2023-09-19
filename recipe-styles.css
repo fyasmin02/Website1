@@ -1,0 +1,96 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #242933;
+    color: #a6adba;
+}
+
+#header{
+    font-size: 1.25rem;
+    padding: 2%;
+}
+
+#header,.section img,.step1 img, .footer p{
+   text-align: center;
+}
+
+#header, .step{
+    background-color: #ff6f61;
+}
+
+.section{
+    font-size: 1.25em;
+    background-color:  #3d4150;
+    padding: 3% 5%;
+}
+
+.section img, .step1 img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid silver;
+}
+
+.section img, .step1 img,.section1{
+     border-radius: 10px;
+}
+
+.step{
+    border-radius: 75%;
+    padding: 10px;
+}
+
+.step, #header, .comments{
+    color: white;
+}
+
+.section1{
+    border: 2px solid #ff6f61;
+    padding: 3%;
+    margin: 5% 10% 5% 10%;
+}
+
+.step1 p{
+    margin-top: 10px;
+}
+
+.step1 p,.footer p{
+     font-size: 1.2em;
+}
+
+.step1 ol, .step1 ol a, .site a{
+    color: #05c26a;
+    text-decoration: none;
+}
+
+.step1 ol, .step1 ol a{
+    font-size: 1.1em;
+}
+
+
+.tip{
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.comments{
+    font-size: 0.9em;
+}
+
+.step1 ol a:hover, .site a:hover {
+    color: yellow;
+}
+
+.step1 ol a:hover, .site a:hover, .text, .tip{
+    text-decoration: underline;
+}
+
+.footer p{
+    background-color: #515164;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer hr, .footer p, body, #header{
+    margin: 0;
+}
